@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2019.2.6)  7 FEB 2019 16:26
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2019.2.6)  8 FEB 2019 10:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -2169,23 +2169,58 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 ]
 第一章
-[3] [4
+*************************************************
+* fontspec warning: "script-not-exist"
+* 
+* Font 'FandolFang-Regular' does not contain script 'CJK'.
+*************************************************
+\g__fontspec_family_FandolFang-Regular_int=\count218
+LaTeX Font Info:    Try loading font information for EU1+lmtt on input line 125
+.
+(/usr/local/texlive/2015/texmf-dist/tex/latex/euenc/eu1lmtt.fd
+File: eu1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+.................................................
+. fontspec info: "defining-font"
+. 
+. Font family 'FandolFang-Regular(0)' created for font 'FandolFang-Regular'
+. with options [Script={CJK},Extension={.otf},AutoFakeBold={4}].
+. 
+. This font family consists of the following shapes:
+. 
+. * 'normal' with NFSS spec.:
+. <->"[FandolFang-Regular.otf]/OT:"
+. 
+. * 'small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+. 
+. * 'bold' with NFSS spec.:
+. <->"[FandolFang-Regular.otf]/OT:embolden=4;"
+. 
+. * 'bold small caps' with NFSS spec.:
+. 
+. and font adjustment code:
+. 
+.................................................
+ [3] [4
 
 ]
 第二章
 [5]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 118.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 118.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 131.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 131.
  (./Music.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 118.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 118.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 131.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 131.
  ) 
 Here is how much of TeX's memory you used:
- 43962 strings out of 493706
- 917136 string characters out of 6145770
- 950269 words of memory out of 5000000
- 46705 multiletter control sequences out of 15000+600000
- 7171 words of font info for 49 fonts, out of 8000000 for 9000
+ 44074 strings out of 493706
+ 920291 string characters out of 6145770
+ 952269 words of memory out of 5000000
+ 46794 multiletter control sequences out of 15000+600000
+ 11582 words of font info for 74 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
  63i,7n,74p,10411b,450s stack positions out of 5000i,500n,10000p,200000b,80000s
 
