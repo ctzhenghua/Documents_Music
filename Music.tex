@@ -22,29 +22,6 @@
 \usepackage{tikz}
 \usepackage{dirtree}
 
-
-\usetikzlibrary{intersections,
-	positioning,
-	petri,
-	backgrounds,
-	fit,
-	decorations.pathmorphing,
-	arrows,
-	arrows.meta,
-	bending,
-	calc,
-	intersections,
-	through,
-	backgrounds,
-	shapes.geometric,
-	quotes,
-	matrix,
-	trees,
-	shapes.symbols,
-	graphs,
-	math,
-	patterns,
-	external}
 \CTEXsetup[format+={\flushleft}]{section}
 
 %%%% 设置图片目录
@@ -107,25 +84,38 @@
 \begin{document}          %正文排版开始
  	\maketitle
  
-\chapter{乐理基础}
-	\section{音名、唱名}
-	 1 2 3 4 5 6 7 
+\chapter{看谱唱歌、乐理基础}
+	\section{音名、唱名、音符、休止符、拍号}
+	 	常用符号表示记号：\url{https://blog.csdn.net/chuchus/article/details/46042673}
+	 	
+		\subsection*{唱名}
+		 	
+		 	\verb|do(1)  re(2)  mi(3)  fa(4)  sol(5)  la(6)  si(7)| 
+		 
+		\subsection*{音名}
+		 	
+		 	\verb|C       D       E      F       G      A      B|
 	 
-	 唱名：do re mi fa sol la si 
-	 
-	 音名：C D E F G A B
- 
-	\section{音符}
+		\subsection*{音符、休止符}
+			
+			全音符、  2分、  4分、   8分、  16分、  32分。具体的是1对2的关系，一个全音符等于两个2分音符，以此类推。
 		
-	\section{音阶}
-	
-	\section{}
-	
-	
-	\url{https://blog.csdn.net/chuchus/article/details/46042673}
-	
-\chapter{吉他入门}
+			\begin{figure}[H]
+				\centering
+				\includegraphics[scale=0.7]{yinfu}
+				\caption{音符与休止符表示记号}
+			\end{figure}
+			
+		\subsection*{拍号(拍子记号)}
+			$\dfrac{\textbf{每小节有几拍}}{\textbf{x分音符当1拍}} $，如$\dfrac{3}{4} $(每小节有3拍，每个4分音符当一拍)、  $\dfrac{2}{2} $ (每小节有2拍，每个2分音符当一拍)等.
+			
 
- 
+\chapter{钢琴-简谱与五线谱的弹奏}
+
+\chapter{作曲及和弦}
+
+\chapter{和声与编曲}
+
+\chapter{吉他入门}
 		    
 \end{document} 
